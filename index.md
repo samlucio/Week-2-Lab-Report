@@ -4,8 +4,7 @@
 
 ## 1. Install VSCode
 
-    Download VSCode with this website link: [Install
-    VSCode]([Link](http://a.com)). Once you install VSCode, you will open the application and see this.
+    Download VSCode with this website link: [InstallVSCode]([Link](http://a.com)). Once you install VSCode, you will open the application and see this.
 
 ![Image](installingVscode.png)
 
