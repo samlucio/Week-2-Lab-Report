@@ -13,7 +13,7 @@
 
 ## 2. Remotely Connecting
 
-    - First, open the VSCode terminal and put: $ ssh cs15lsp22zz@ieng6.ucsd.edu(replace the zz with your actual username). 
+    - First, open the VSCode terminal and put: $ ssh cs15lsp22zz@ieng6.ucsd.edu. 
     - If a question pops up, make sure to type 'y' for yes and input your password. 
     - You should see something like this:
 
@@ -21,9 +21,9 @@
 
 ## 3. Trying Some Commands
 
-    - There are many types of commands you can use like cd, ls, pwd, mkdir, and cp. "ls" shows you what it is in your directory. 
+    - There are many types of commands you can use like cd, ls, and cp. "ls" shows you what it is in your directory. 
     - In my example, I used /home/linux/ieng6/cs15lsp22/cs15lsp22abc. 
-    - abc was my classmates username and it tells you whether it is a directory or not. 
+    - [abc] was my classmates username and it tells you whether it is a directory or not. 
     
 ![Image](tryingSomeCommands.png)
 
@@ -48,5 +48,5 @@
 ![Image](keygen.png)   
 
 ## 6. Optimizing Remote Running
-    - You can use commands in quotes after running the ssh commands.
+    - You can use commands in quotes to make it faster when running ssh.
 
