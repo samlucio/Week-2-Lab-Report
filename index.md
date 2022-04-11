@@ -31,7 +31,7 @@
     - For example, once you have compiled the file on the client server, you will type in your terminal: 
     scp <your file> cs15lsp22zz@ieng6.ucsd.edu:~/
 
-    - After, you log in remotely (using ssh and your ieng6 account). When you use ls, you will see that file on the remote server. 
+    - After, you log in remotely (using ssh). When you use ls, you will see that file on the remote server. 
 
 ![Image](movingFiles.png)
 
