@@ -45,3 +45,6 @@
 
 ![Image](keygen.png)   
 
+## 6. Optimizing Remote Running
+    - You can use commands in quotes after running the ssh commands.
+
