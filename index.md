@@ -11,7 +11,7 @@
 
 ## 2. Remotely Connecting
 
-    - First, open the VSCode terminal and type: $ ssh cs15lsp22zz@ieng6.ucsd.edu *** (replace the zz with your actual username). 
+    - First, open the VSCode terminal and put: $ ssh cs15lsp22zz@ieng6.ucsd.edu(replace the zz with your actual username). 
     - If a question pops up, make sure to type 'y' for yes and input your password. 
     - You should see something like this:
 
@@ -34,3 +34,14 @@
     - After, you log in remotely (using ssh and your ieng6 account). When you use ls, you will see that file on the remote server. 
 
 ![Image](movingFiles.png)
+
+## 5. Setting an SSH Key
+
+    - On your client, type: $ ssh-keygen. Then you enter your file name where you want to save it.
+    - After, type: $ scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys.
+    - Now, when you use ssh, it does not ask for your password.
+
+    The picture provided below is more detailed:
+
+![Image](keygen.png)   
+
